@@ -318,4 +318,14 @@ body {
     transition: width 0s ease;
 }
 
+.bag_btn{
+    position: fixed;
+    /*margin-left: 81%;*/
+    right: 10px;
+    top: 1vh;
+    transition: transform 0.3s;
+}
 
+.bag_btn:hover{
+    transform: scale(1.2);
+}
