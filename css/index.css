@@ -5,6 +5,11 @@ body {
     background: linear-gradient(90deg, rgba(254,185,227,1) 0%, rgba(252,252,183,1) 100%);
 }
 
+@font-face {
+    font-family: DFont;
+    src: url("fonts/SaarSPDemo.woff");
+}
+
 .nav {
     /*  ширна произвольная, не стесняйтесь экспериментировать */
     width: 320px;
@@ -328,4 +333,29 @@ body {
 
 .bag_btn:hover{
     transform: scale(1.2);
+}
+
+.btn_m_inf{
+    text-align: center;
+    background-color: #ED1F7E;
+    border-radius: 13px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.btn_m_inf:hover{
+    transform: scale(1.05);
+}
+
+.btn_in_basket{
+    cursor: pointer;
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 13px;
+    border: black solid 1px;
+    transition: transform 0.3s;
+}
+
+.btn_in_basket:hover{
+    transform: scale(1.05);
 }

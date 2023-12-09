@@ -5,3 +5,43 @@ body {
     background: linear-gradient(90deg, rgba(254,185,227,1) 0%, rgba(252,252,183,1) 100%);
 }
 
+@font-face {
+    font-family: DFont;
+    src: url("fonts/SaarSPDemo.woff");
+}
+
+.btn_m_inf{
+    text-align: center;
+    background-color: #ED1F7E;
+    border-radius: 13px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.btn_m_inf:hover{
+    transform: scale(1.05);
+}
+
+.btn_in_basket{
+    cursor: pointer;
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 13px;
+    border: black solid 1px;
+    transition: transform 0.3s;
+}
+
+.btn_in_basket:hover{
+    transform: scale(1.05);
+}
+
+.btn_back{
+    width: 50px;
+    position:absolute;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.btn_back:hover{
+    transform: scale(1.05);
+}

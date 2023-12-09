@@ -1,3 +1,27 @@
-.test:hover{
+@font-face {
+    font-family: DFont;
+    src: url("fonts/SaarSPDemo.woff");
+}
 
+#put_in_basket{
+    background-color: #ED1F7E;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#put_in_basket:hover{
+    transform: scale(1.05);
+}
+
+.btn_counter{
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    border: black solid 1px;
+    transition: transform 0.3s;
+}
+
+.btn_counter:hover{
+    transform: scale(1.05);
 }
